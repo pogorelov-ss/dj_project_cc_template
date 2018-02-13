@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "project_short_description": "Python Boilerplate for Django app or package with zappa support.",
+  "full_name": "Sergii Pogorielov",
+  "email": "pogorelov.ss@gmail.com",
+  "github_username": "pogorelov-ss",
+  "project_name": "kev",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "aaps_folder_name": "{{ cookiecutter.project_slug }}_apps",
+  "zappa_s3_bucket": "{{ cookiecutter.project_slug }}-zappa",
+  "static_s3_bucket": "{{ cookiecutter.project_slug }}-static",
+  "db_s3_bucket": "{{ cookiecutter.project_slug }}-db",
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}

@@ -1,0 +1,10 @@
+sqlite.db
+db.sqlite3
+.idea
+__pycache__/
+.tox/
+{{ cookiecutter.project_slug }}.egg-info/
+.cache/
+.coverage
+node_modules/
+webpack-stats.json

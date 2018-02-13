@@ -1,0 +1,4 @@
+Django
+zappa
+zappa-django-utils
+django-storages

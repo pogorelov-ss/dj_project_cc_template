@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "aws_region": "eu-west-1",
+    "profile_name": "default",
+    "s3_bucket": "{{ cookiecutter.zappa_s3_bucket }}",
+    "keep_warm": false,
+
+    "project_name": "{{ cookiecutter.project_slug }}",
+    "runtime": "python3.6",
+    "django_settings": "dj_main.settings",
+    "environment_variables": {
+      "S3SQLITE": "False"
+    }
+  }
+}

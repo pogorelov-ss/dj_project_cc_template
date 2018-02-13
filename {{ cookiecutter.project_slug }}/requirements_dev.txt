@@ -1,0 +1,6 @@
+-r requirements.txt
+
+tox
+pytest-django
+
+pytest-cov
